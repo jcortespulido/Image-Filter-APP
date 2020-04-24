@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mini Project HTML/CSS/JS - Coursera</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<body>
+  <h1>Image Filter APP</h1>
+  <div>
+    <input id="fileImage" type="file" multiple="false" accept="image/* "onchange="doUpload()">
+    <input class="button" type="button" value="Clear" onclick="doClear()">
+  </div>
+  <div>
+    <input class="button" type="button" value="Normal" onclick="doNormal()">
+    <input class="button" type="button" value="Gray" onclick="doGray()">
+    <input class="button" type="button" value="Red" onclick="doRed()">
+    <input class="button" type="button" value="Green" onclick="doGreen()">
+    <input class="button" type="button" value="Blue" onclick="doBlue()">
+    <input class="button" type="button" value=" Vertbow" onclick="doVRainbow()">
+    <input class="button" type="button" value=" Hortbow" onclick="doHRainbow()">
+  </div>
+  <br>
+  <div>
+    <canvas id="canva" width="auto" height="auto"></canvas>
+  </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
